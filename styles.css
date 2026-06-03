@@ -2024,9 +2024,9 @@ section > .container { position: relative; z-index: 1; }
 
 /* BACK — soft beige, no blur */
 .hrc-back {
-  background: rgba(231, 215, 193, 0.98) !important;
+  background: rgb(255 255 255 / 98%) !important;
   border: 1.5px solid rgba(231, 215, 193, 0.7) !important;
-  border-left: 3px solid #111111 !important;
+  border-left: 3px solid #ece5d9 !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   transform: rotateY(180deg);
