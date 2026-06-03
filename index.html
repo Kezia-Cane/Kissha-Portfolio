@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO (landing-page-generator checklist) -->
+  <title>Kissha C. Trangia — Virtual Assistant & Operations Support</title>
+  <meta name="description" content="From overwhelmed to organized. Kissha C. Trangia is a detail-oriented Virtual Assistant and Operations Support Specialist helping US, UK, and AU businesses streamline workflows and reclaim their time." />
+  <meta name="keywords" content="virtual assistant, operations support, local SEO, executive assistant, remote work, Kissha Trangia" />
+  <meta name="author" content="Kissha C. Trangia" />
+  <link rel="canonical" href="https://kisshatrangia.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kissha C. Trangia — From Overwhelmed to Organized" />
+  <meta property="og:description" content="Virtual Assistant & Operations Support Specialist helping businesses streamline workflows and reclaim their time." />
+  <meta property="og:type" content="website" />
+
+  <!-- Structured Data: Person (landing-page-generator) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kissha C. Trangia",
+    "jobTitle": "Virtual Assistant & Operations Support Specialist",
+    "url": "https://kisshatrangia.com",
+    "email": "kisshatrangia@gmail.com",
+    "telephone": "+639632859314",
+    "address": { "@type": "PostalAddress", "addressLocality": "Davao City", "addressCountry": "PH" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Mindanao — Tagum College" },
+    "knowsLanguage": ["English", "Filipino"]
+  }
+  </script>
+
+  <!-- Fonts: Cormorant Garamond + DM Sans (frontend-design: NO Inter/Roboto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION — Glassmorphism ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Kissha<span>.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#tools">Tools</a>
+        <a href="#why">Why Me</a>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Talk</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO =====================
+       interactive-portfolio formula: Name → One-liner → Differentiator → CTA
+       BAB framework: Before state → After state → Bridge
+       antigravity: parallax shapes, floating image, glassmorphic accent
+  ===================== -->
+  <section class="hero" id="hero">
+    <!-- Branded animated bg: floating beige orbs + subtle dot grid -->
+    <div class="sa sa-hero" aria-hidden="true">
+      <div class="sa-dot-grid"></div>
+    </div>
+    <div class="hero-bg-shapes">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-shape hero-shape-3"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-inner">
+        <!-- Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Available for Hire — US, UK &amp; AU Time Zones
+          </div>
+
+          <!-- BAB: Before → After in the headline -->
+          <h1>
+            From Overwhelmed<br />
+            <span class="hero-accent">to Fully Organized.</span>
+          </h1>
+
+          <!-- BAB: Bridge — how she makes it happen -->
+          <p class="hero-description">
+            I'm the operations partner who bridges the gap between chaos and clarity — managing your calendar, inbox, client communication, and workflows so you can focus on growing your business.
+          </p>
+
+          <!-- CTA visible above fold on 375px (landing-page-generator) -->
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary" id="hero-cta-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Start a Conversation
+            </a>
+            <a href="#services" class="btn btn-outline" id="hero-cta-secondary">See How I Help</a>
+          </div>
+
+          <!-- Trust indicators -->
+          <div class="hero-trust">
+            <div class="trust-item">
+              <div class="trust-icon">🇺🇸</div>
+              <span>US-Based Client Experience</span>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon">🎓</div>
+              <span>Summa Cum Laude Graduate</span>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon">⚡</div>
+              <span>AI-Powered Productivity</span>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon">🌐</div>
+              <span>200 Mbps Fiber + 5G Backup</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image — floating with glassmorphic accent (antigravity) -->
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-frame"></div>
+            <!-- Auto image slider — cycles all 9 photos every 2s -->
+            <div class="img-slider" id="heroSlider" role="img" aria-label="Kissha C. Trangia portfolio photos">
+              <img class="slide active" src="assets/ChatGPT Image Jun 2, 2026, 06_42_38 PM.png" alt="Kissha C. Trangia" loading="eager" />
+              <img class="slide" src="assets/ChatGPT Image Jun 2, 2026, 06_51_28 PM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 27, 2026, 03_21_51 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 27, 2026, 03_40_49 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 27, 2026, 04_34_42 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 28, 2026, 02_44_15 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 28, 2026, 02_48_20 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 28, 2026, 02_52_11 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+              <img class="slide" src="assets/ChatGPT Image May 28, 2026, 02_55_04 AM.png" alt="Kissha C. Trangia" loading="lazy" />
+            </div>
+                        <!-- 3D flip business card â€” auto-flips every 2s -->
+            <div class="hero-accent-card" id="heroRoleCard" aria-live="polite">
+              <div class="hrc-inner" id="hrcInner">
+                <div class="hrc-face hrc-front" id="hrcFront">
+                  <div class="hrc-label" id="hrcFrontLabel">Currently Working As</div>
+                  <div class="hrc-value" id="hrcFrontValue">Project Manager</div>
+                  <div class="hrc-sub" id="hrcFrontSub">Operations &amp; Systems</div>
+                </div>
+                <div class="hrc-face hrc-back" id="hrcBack">
+                  <div class="hrc-label" id="hrcBackLabel">Available For</div>
+                  <div class="hrc-value" id="hrcBackValue">Virtual Assistant</div>
+                  <div class="hrc-sub" id="hrcBackSub">US-Based Clients</div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT =====================
+       Asymmetric layout (frontend-design: break the grid)
+       GSAP: image floats from left, text from right
+  ===================== -->
+  <section class="section-beige" id="about">
+    <!-- Branded animated bg: diagonal organization lines -->
+    <div class="sa sa-about" aria-hidden="true">
+      <div class="sa-line"></div><div class="sa-line"></div><div class="sa-line"></div>
+      <div class="sa-line"></div><div class="sa-line"></div><div class="sa-line"></div>
+    </div>
+    <div class="container">
+      <div class="about-grid">
+                <div class="about-image-container gs-reveal-left" style="align-items: center; display: flex;">
+          <div class="vertical-image-stack" id="aboutStack">
+            <div class="vis-ambient"></div>
+            <div class="vis-container" id="visContainer">
+              <!-- cards -->
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image Jun 2, 2026, 06_51_28 PM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image Jun 2, 2026, 06_42_38 PM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 28, 2026, 02_48_20 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 28, 2026, 02_52_11 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 28, 2026, 02_55_04 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 27, 2026, 03_21_51 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 27, 2026, 03_40_49 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 27, 2026, 04_34_42 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+              <div class="vis-card-wrap"><div class="vis-card"><div class="vis-glow"></div><img src="assets/ChatGPT Image May 28, 2026, 02_44_15 AM.png" alt="Kissha" draggable="false"><div class="vis-overlay"></div></div></div>
+            </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-label gs-reveal">About Me</span>
+          <h2 class="section-title gs-reveal">The Organized Partner<br />Behind Your Operations</h2>
+
+          <div class="about-text gs-reveal">
+            <p>
+              I help businesses stay organized, responsive, and operationally efficient. With experience supporting US-based clients across administrative operations, customer communication, project coordination, and local SEO, I specialize in removing the bottlenecks that slow you down.
+            </p>
+            <p>
+              My background combines executive assistance, CRM management, customer support, scheduling coordination, and AI-assisted productivity systems. I thrive in remote environments where organization, communication, and reliability directly impact your bottom line.
+            </p>
+          </div>
+
+          <div class="about-highlights gs-reveal">
+            <div class="about-highlight-item">
+              <div class="about-highlight-icon">📋</div>
+              <span class="about-highlight-text">Executive &amp; Admin Support</span>
+            </div>
+            <div class="about-highlight-item">
+              <div class="about-highlight-icon">🤝</div>
+              <span class="about-highlight-text">Client Communication</span>
+            </div>
+            <div class="about-highlight-item">
+              <div class="about-highlight-icon">📊</div>
+              <span class="about-highlight-text">Operations Coordination</span>
+            </div>
+            <div class="about-highlight-item">
+              <div class="about-highlight-icon">🔍</div>
+              <span class="about-highlight-text">Local SEO &amp; Digital</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES =====================
+       BAB: "From scattered workflows → to smooth systems"
+       Glassmorphic cards + staggered 0.1s domino (antigravity)
+       CTA after section (interactive-portfolio)
+  ===================== -->
+  <section class="section-gradient-beige" id="services" style="isolation: isolate;">
+    <!-- Branded animated bg: floating geometric orbs (efficiency/organization) -->
+    <div class="sa sa-services" aria-hidden="true" style="z-index: 0;">
+      <div class="sa-orb sa-orb-1"></div>
+      <div class="sa-orb sa-orb-2"></div>
+      <div class="sa-orb sa-orb-3"></div>
+      <div class="sa-orb sa-orb-4"></div>
+    </div>
+    <div class="container text-center">
+      <span class="section-label gs-reveal">What I Do</span>
+      <!-- BAB headline -->
+      <h2 class="section-title gs-reveal">From Scattered Workflows<br />to Smooth, Scalable Systems</h2>
+      <p class="section-subtitle gs-reveal">You shouldn't be drowning in emails, chasing follow-ups, and manually tracking every task. Here's how I fix that.</p>
+
+      <div class="services-grid" id="servicesGrid">
+        <!-- Card 1 -->
+        <div class="service-card gs-reveal">
+          <div class="service-icon">📋</div>
+          <h3>Executive &amp; Admin Support</h3>
+          <p>Streamlined scheduling, communication management, and documentation systems that keep your executive operations running without friction.</p>
+          <ul class="service-list">
+            <li>Calendar &amp; Appointment Management</li>
+            <li>Inbox Management &amp; Triage</li>
+            <li>Meeting Coordination</li>
+            <li>SOP &amp; Documentation Creation</li>
+            <li>Data Entry &amp; Records Management</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card gs-reveal">
+          <div class="service-icon">🤝</div>
+          <h3>Customer &amp; Client Support</h3>
+          <p>Professional, responsive customer communication that builds loyalty and keeps your pipeline moving with consistent follow-ups.</p>
+          <ul class="service-list">
+            <li>Email &amp; Chat Support</li>
+            <li>Customer Follow-Ups</li>
+            <li>CRM Updates &amp; Lead Tracking</li>
+            <li>Appointment Confirmations</li>
+            <li>Customer Onboarding Assistance</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card gs-reveal">
+          <div class="service-icon">⚙️</div>
+          <h3>Operations Coordination</h3>
+          <p>Organized workflows, clear task management, and operational visibility that helps your team work smarter — not harder.</p>
+          <ul class="service-list">
+            <li>Workflow Organization</li>
+            <li>Task &amp; Project Management</li>
+            <li>Team Communication Support</li>
+            <li>Reporting Systems</li>
+            <li>Operational Documentation</li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card gs-reveal">
+          <div class="service-icon">🔍</div>
+          <h3>Local SEO &amp; Digital Support</h3>
+          <p>Data-driven local SEO and digital marketing support to boost your online visibility and attract more customers in your area.</p>
+          <ul class="service-list">
+            <li>Google Business Profile Optimization</li>
+            <li>Local SEO Strategy &amp; Citations</li>
+            <li>Keyword &amp; Competitor Research</li>
+            <li>WordPress Content Updates</li>
+            <li>Marketing Asset Creation</li>
+          </ul>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card gs-reveal">
+          <div class="service-icon">🤖</div>
+          <h3>AI-Powered Productivity</h3>
+          <p>Leveraging modern AI tools to automate repetitive tasks, draft content faster, and optimize your processes for speed and accuracy.</p>
+          <ul class="service-list">
+            <li>ChatGPT Workflow Support</li>
+            <li>AI-Assisted Content Drafting</li>
+            <li>Documentation Automation</li>
+            <li>Process Improvement</li>
+            <li>Productivity Optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CTA after services (interactive-portfolio: "After projects: Secondary CTA") -->
+      <div class="section-cta gs-reveal">
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Let's Streamline Your Workflow
+        </a>
+        <a href="#experience" class="btn btn-ghost">See My Experience →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE =====================
+       Timeline with GSAP scroll-triggered entrances
+  ===================== -->
+  <section class="section-beige" id="experience">
+    <!-- Branded animated bg: flowing upward particles (career progression) -->
+    <!-- 16 particles with varied start positions to fill entire section -->
+    <div class="sa sa-experience" aria-hidden="true">
+      <div class="sa-particle" style="bottom: 10%;"></div>
+      <div class="sa-particle" style="bottom: 35%;"></div>
+      <div class="sa-particle" style="bottom: 60%;"></div>
+      <div class="sa-particle" style="bottom: 85%;"></div>
+      <div class="sa-particle" style="bottom: 20%;"></div>
+      <div class="sa-particle" style="bottom: 50%;"></div>
+      <div class="sa-particle" style="bottom: 75%;"></div>
+      <div class="sa-particle" style="bottom: 5%;"></div>
+      <div class="sa-particle" style="bottom: 42%;"></div>
+      <div class="sa-particle" style="bottom: 68%;"></div>
+      <div class="sa-particle" style="bottom: 90%;"></div>
+      <div class="sa-particle" style="bottom: 15%;"></div>
+      <div class="sa-particle" style="bottom: 55%;"></div>
+      <div class="sa-particle" style="bottom: 30%;"></div>
+      <div class="sa-particle" style="bottom: 80%;"></div>
+      <div class="sa-particle" style="bottom: 45%;"></div>
+    </div>
+    <div class="container text-center">
+      <span class="section-label gs-reveal">Experience</span>
+      <h2 class="section-title gs-reveal">From Coordination Challenges<br />to Operational Excellence</h2>
+      <p class="section-subtitle gs-reveal">Real results delivered for US-based clients across operations, customer experience, and digital marketing.</p>
+
+      <div class="experience-timeline" id="experienceTimeline">
+        <!-- 1 -->
+        <div class="timeline-item gs-reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">August 2025 – February 2026</div>
+            <h3>Executive &amp; Operations Support Specialist</h3>
+            <div class="timeline-client">US-Based Client</div>
+            <p>Managed daily executive support operations including scheduling, communication management, documentation, workflow organization, and administrative coordination across multiple client accounts.</p>
+            <div class="timeline-highlights">
+              <span class="timeline-tag">Executive Calendars</span>
+              <span class="timeline-tag">Email Management</span>
+              <span class="timeline-tag">SOP Systems</span>
+              <span class="timeline-tag">Reporting</span>
+              <span class="timeline-tag">AI Productivity</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="timeline-item gs-reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">August 2025 – February 2026</div>
+            <h3>HVAC Project Coordinator</h3>
+            <div class="timeline-client">US-Based Client</div>
+            <p>Provided operational support for HVAC projects, technician scheduling, service coordination, customer communications, and workflow management.</p>
+            <div class="timeline-highlights">
+              <span class="timeline-tag">Technician Scheduling</span>
+              <span class="timeline-tag">Service Coordination</span>
+              <span class="timeline-tag">Customer Follow-Ups</span>
+              <span class="timeline-tag">Project Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="timeline-item gs-reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">August 2025 – February 2026</div>
+            <h3>Customer Experience Specialist</h3>
+            <div class="timeline-client">US-Based Client</div>
+            <p>Delivered customer support through multiple communication channels while maintaining excellent response times and customer satisfaction.</p>
+            <div class="timeline-highlights">
+              <span class="timeline-tag">Multi-Channel Support</span>
+              <span class="timeline-tag">CRM Management</span>
+              <span class="timeline-tag">Customer Onboarding</span>
+              <span class="timeline-tag">Retention</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="timeline-item gs-reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">August 2025 – February 2026</div>
+            <h3>Local SEO &amp; Digital Support Specialist</h3>
+            <div class="timeline-client">US-Based Client</div>
+            <p>Supported digital marketing and local SEO initiatives through business profile optimization, content management, and marketing support.</p>
+            <div class="timeline-highlights">
+              <span class="timeline-tag">Google Business Profile</span>
+              <span class="timeline-tag">Keyword Research</span>
+              <span class="timeline-tag">WordPress</span>
+              <span class="timeline-tag">Canva Design</span>
+              <span class="timeline-tag">Lead Generation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA after experience -->
+      <div class="section-cta gs-reveal">
+        <a href="#contact" class="btn btn-primary">Hire Me for Your Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TOOLS ===================== -->
+  <section class="section-white" id="tools">
+    <!-- Branded animated bg: ripple rings (connectivity/digital tools) -->
+    <div class="sa sa-tools" aria-hidden="true">
+      <div class="sa-ring sa-ring-1"></div>
+      <div class="sa-ring sa-ring-2"></div>
+      <div class="sa-ring sa-ring-3"></div>
+      <div class="sa-ring sa-ring-4"></div>
+    </div>
+    <div class="container text-center">
+      <span class="section-label gs-reveal">Tools &amp; Platforms</span>
+      <h2 class="section-title gs-reveal">From Manual Processes<br />to Streamlined Systems</h2>
+      <p class="section-subtitle gs-reveal">Proficient across industry-standard CRMs, productivity suites, communication platforms, and marketing tools.</p>
+
+      <div class="tools-categories" id="toolsGrid">
+
+        <!-- CRM & Operations -->
+        <div class="tool-category gs-reveal">
+          <h4>CRM &amp; Operations</h4>
+          <div class="tool-pills">
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
+              GoHighLevel
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+              ServiceTitan
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+              HubSpot
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+              CRM Systems
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+              Pipeline Mgmt
+            </span>
+          </div>
+        </div>
+
+        <!-- Productivity -->
+        <div class="tool-category gs-reveal">
+          <h4>Productivity</h4>
+          <div class="tool-pills">
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></span>
+              Google Workspace
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+              Microsoft 365
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+              ClickUp
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 17h7M17.5 14v7"/></svg></span>
+              Trello
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+              Asana
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+              Calendly
+            </span>
+          </div>
+        </div>
+
+        <!-- Communication -->
+        <div class="tool-category gs-reveal">
+          <h4>Communication</h4>
+          <div class="tool-pills">
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="12" y1="10" x2="12" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/></svg></span>
+              Slack
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l4.553-2.069A1 1 0 0 1 21 8.867v6.266a1 1 0 0 1-1.447.9L15 14"/><rect x="1" y="6" width="15" height="13" rx="2"/></svg></span>
+              Zoom
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+              Google Meet
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 15a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 4h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 11.6a16 16 0 0 0 5.49 5.49l1.56-1.56a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              WhatsApp Biz
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>
+              Loom
+            </span>
+          </div>
+        </div>
+
+        <!-- SEO & Marketing -->
+        <div class="tool-category gs-reveal">
+          <h4>SEO &amp; Marketing</h4>
+          <div class="tool-pills">
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+              Google Business
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg></span>
+              Search Console
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
+              Google Analytics
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg></span>
+              SEMrush
+            </span>
+          </div>
+        </div>
+
+        <!-- Content & Design -->
+        <div class="tool-category gs-reveal">
+          <h4>Content &amp; Design</h4>
+          <div class="tool-pills">
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg></span>
+              Canva
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/><line x1="9" y1="9" x2="9" y2="15"/></svg></span>
+              CapCut
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span>
+              Adobe Express
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+              WordPress
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h.01M15 9h.01M9 15h6"/></svg></span>
+              Elementor
+            </span>
+          </div>
+        </div>
+
+        <!-- AI & Automation -->
+        <div class="tool-category gs-reveal">
+          <h4>AI &amp; Automation</h4>
+          <div class="tool-pills">
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.663 17h4.673M12 3v1m6.364 1.636-.707.707M21 12h-1M4 12H3m3.343-5.657-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></span>
+              ChatGPT
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></span>
+              Grammarly
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+              Prompt Engineering
+            </span>
+            <span class="tool-pill">
+              <span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></span>
+              AI Workflows
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY WORK WITH ME =====================
+       BAB: "Hiring uncertainty → proven, reliable partner"
+  ===================== -->
+  <section class="section-beige" id="why">
+    <!-- Branded animated bg: expanding trust rings (reliability) -->
+    <div class="sa sa-why" aria-hidden="true">
+      <div class="sa-trust-ring"></div>
+      <div class="sa-trust-ring"></div>
+      <div class="sa-trust-ring"></div>
+    </div>
+    <div class="container text-center">
+      <span class="section-label gs-reveal">Why Choose Me</span>
+      <h2 class="section-title gs-reveal">From Hiring Uncertainty<br />to a Proven, Reliable Partner</h2>
+      <p class="section-subtitle gs-reveal">You need more than a task-taker. Here's why clients trust me with their operations.</p>
+
+      <div class="why-grid" id="whyGrid">
+        <div class="why-card gs-reveal">
+          <div class="why-icon">📐</div>
+          <div>
+            <h4>Strong Organizational Skills</h4>
+            <p>Systems-oriented approach to every task. I create structure that scales and reduces chaos so you can focus on growth.</p>
+          </div>
+        </div>
+
+        <div class="why-card gs-reveal">
+          <div class="why-icon">✍️</div>
+          <div>
+            <h4>Excellent Written Communication</h4>
+            <p>Clear, professional, and timely communication that represents your brand with confidence and warmth.</p>
+          </div>
+        </div>
+
+        <div class="why-card gs-reveal">
+          <div class="why-icon">🇺🇸</div>
+          <div>
+            <h4>US-Based Client Experience</h4>
+            <p>Proven track record supporting American businesses with cultural awareness and timezone flexibility.</p>
+          </div>
+        </div>
+
+        <div class="why-card gs-reveal">
+          <div class="why-icon">🎯</div>
+          <div>
+            <h4>Detail-Oriented &amp; Process-Driven</h4>
+            <p>Nothing falls through the cracks. I build systems, track progress, and ensure every deliverable meets the mark.</p>
+          </div>
+        </div>
+
+        <div class="why-card gs-reveal">
+          <div class="why-icon">🏠</div>
+          <div>
+            <h4>Reliable Remote Work Setup</h4>
+            <p>Dedicated home office with 200 Mbps fiber internet, HD webcam, and a professional video call environment.</p>
+          </div>
+        </div>
+
+        <div class="why-card gs-reveal">
+          <div class="why-icon">⚡</div>
+          <div>
+            <h4>AI-Enhanced Productivity</h4>
+            <p>I leverage ChatGPT, prompt engineering, and AI workflows to deliver faster, more accurate results every time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="section-white" id="education">
+    <!-- Branded animated bg: sparkle stars (achievement/Summa Cum Laude) -->
+    <div class="sa sa-education" aria-hidden="true">
+      <div class="sa-star"></div><div class="sa-star"></div><div class="sa-star"></div>
+      <div class="sa-star"></div><div class="sa-star"></div><div class="sa-star"></div>
+      <div class="sa-star"></div><div class="sa-star"></div>
+    </div>
+    <div class="container text-center">
+      <span class="section-label gs-reveal">Education &amp; Certification</span>
+      <h2 class="section-title gs-reveal">Academic Foundation</h2>
+
+      <div class="education-grid" id="educationGrid">
+        <div class="education-card gs-reveal">
+          <div class="ed-icon">🎓</div>
+          <h3>BS in Criminology</h3>
+          <div class="ed-school">University of Mindanao — Tagum College · 2024</div>
+          <div class="education-badges">
+            <span class="ed-badge">Summa Cum Laude</span>
+            <span class="ed-badge">Leadership Awardee</span>
+            <span class="ed-badge">Licensed Criminologist</span>
+          </div>
+        </div>
+
+        <div class="education-card gs-reveal">
+          <div class="ed-icon">📜</div>
+          <h3>Virtual Assistant Training</h3>
+          <div class="ed-school">Joven VA · 2025</div>
+          <div class="education-badges">
+            <span class="ed-badge">Certified VA</span>
+            <span class="ed-badge">Remote Operations</span>
+            <span class="ed-badge">Client Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== REMOTE SETUP ===================== -->
+  <section class="section-beige" id="setup">
+    <!-- Branded animated bg: WiFi arc waves (remote connectivity) -->
+    <div class="sa sa-setup" aria-hidden="true">
+      <div class="sa-arc sa-arc-1"></div>
+      <div class="sa-arc sa-arc-2"></div>
+      <div class="sa-arc sa-arc-3"></div>
+      <div class="sa-arc sa-arc-4"></div>
+    </div>
+    <div class="container text-center">
+      <span class="section-label gs-reveal">Remote Work Ready</span>
+      <h2 class="section-title gs-reveal">Built for Seamless<br />Remote Collaboration</h2>
+      <p class="section-subtitle gs-reveal">A professional-grade setup designed for reliability, speed, and clear communication across any timezone.</p>
+
+      <div class="setup-grid" id="setupGrid">
+        <div class="setup-card gs-reveal">
+          <div class="setup-icon">🌐</div>
+          <h4>Internet</h4>
+          <p>Fiber Internet (200 Mbps)<br />Smart 5G Backup</p>
+        </div>
+
+        <div class="setup-card gs-reveal">
+          <div class="setup-icon">💻</div>
+          <h4>Equipment</h4>
+          <p>ASUS Laptop<br />HD Webcam · NC Headset</p>
+        </div>
+
+        <div class="setup-card gs-reveal">
+          <div class="setup-icon">🏢</div>
+          <h4>Workspace</h4>
+          <p>Dedicated Home Office<br />Professional Video Setup</p>
+        </div>
+
+        <div class="setup-card gs-reveal">
+          <div class="setup-icon">🕐</div>
+          <h4>Availability</h4>
+          <p>Full-Time · Flexible<br />US, UK &amp; AU Timezones</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT =====================
+       Two-column: info left, branded form right
+       Form mailto: kisshatrangia@gmail.com
+  ===================== -->
+  <section class="section-white contact-section" id="contact">
+    <div class="sa sa-contact" aria-hidden="true">
+      <div class="sa-glow"></div>
+      <div class="sa-glow sa-glow-2"></div>
+    </div>
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- LEFT: Info + trust -->
+        <div class="contact-info">
+          <span class="section-label gs-reveal">Get in Touch</span>
+          <h2 class="section-title gs-reveal">Still Managing<br>Everything Alone?</h2>
+          <p class="contact-tagline gs-reveal">Imagine reclaiming hours every week â€” with an operations partner who handles the details while you focus on what matters most.</p>
+
+          <div class="contact-info-cards gs-reveal">
+            <a href="mailto:kisshatrangia@gmail.com" class="contact-info-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="ci-text">
+                <span class="ci-label">Email</span>
+                <span class="ci-value">kisshatrangia@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+639632859314" class="contact-info-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="ci-text">
+                <span class="ci-label">Phone / WhatsApp</span>
+                <span class="ci-value">+63 963 285 9314</span>
+              </div>
+            </a>
+            <div class="contact-info-item">
+              <div class="ci-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="ci-text">
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Davao City, Philippines</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-trust gs-reveal">
+            <span class="contact-trust-item">&#10003; Flexible timezone</span>
+            <span class="contact-trust-item">&#10003; Professional setup</span>
+            <span class="contact-trust-item">&#10003; English fluent</span>
+            <span class="contact-trust-item">&#10003; Full-time available</span>
+          </div>
+        </div>
+
+        <!-- RIGHT: Contact Form -->
+        <div class="contact-form-wrapper gs-reveal-right">
+          <form id="contactForm" class="contact-form" novalidate autocomplete="on">
+
+            <div class="cf-header">
+              <h3>Send a Message</h3>
+              <p>I reply within 24 hours.</p>
+            </div>
+
+            <!-- Name + Email row -->
+            <div class="cf-row">
+              <div class="cf-field" id="field-name">
+                <label for="cf-name">Full Name <span class="cf-req" aria-hidden="true">*</span></label>
+                <div class="cf-input-wrap">
+                  <svg class="cf-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <input type="text" id="cf-name" name="name" placeholder="Your full name" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="err-name" />
+                </div>
+                <span class="cf-error" id="err-name" role="alert"></span>
+              </div>
+
+              <div class="cf-field" id="field-email">
+                <label for="cf-email">Email Address <span class="cf-req" aria-hidden="true">*</span></label>
+                <div class="cf-input-wrap">
+                  <svg class="cf-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <input type="email" id="cf-email" name="email" placeholder="your@email.com" autocomplete="email" required aria-describedby="err-email" />
+                </div>
+                <span class="cf-error" id="err-email" role="alert"></span>
+              </div>
+            </div>
+
+            <!-- Subject dropdown -->
+            <div class="cf-field" id="field-subject">
+              <label for="cf-subject">How can I help? <span class="cf-req" aria-hidden="true">*</span></label>
+              <div class="cf-input-wrap cf-select-wrap">
+                <svg class="cf-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                <select id="cf-subject" name="subject" required aria-describedby="err-subject">
+                  <option value="" disabled selected>Select a service...</option>
+                  <option value="Virtual Assistant / General Admin">Virtual Assistant / General Admin</option>
+                  <option value="Operations and Project Management">Operations and Project Management</option>
+                  <option value="Customer Support Management">Customer Support Management</option>
+                  <option value="Email and Calendar Management">Email and Calendar Management</option>
+                  <option value="Social Media Management">Social Media Management</option>
+                  <option value="Data Entry and Reporting">Data Entry and Reporting</option>
+                  <option value="Hiring / Full-Time Collaboration">Hiring / Full-Time Collaboration</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                </select>
+                <svg class="cf-chevron" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+              <span class="cf-error" id="err-subject" role="alert"></span>
+            </div>
+
+            <!-- Message -->
+            <div class="cf-field" id="field-message">
+              <label for="cf-message">Your Message <span class="cf-req" aria-hidden="true">*</span></label>
+              <div class="cf-input-wrap cf-textarea-wrap">
+                <textarea id="cf-message" name="message" placeholder="Tell me about your business, what you are struggling with, and how I can help..." required minlength="20" maxlength="2000" rows="5" aria-describedby="err-message cf-chars-hint"></textarea>
+              </div>
+              <div class="cf-char-row">
+                <span class="cf-error" id="err-message" role="alert"></span>
+                <span class="cf-chars" id="cf-chars-hint" aria-live="polite"><span id="cf-char-count">0</span> / 2000</span>
+              </div>
+            </div>
+
+            <!-- Honeypot (hidden spam trap) -->
+            <div style="display:none" aria-hidden="true">
+              <input type="text" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn btn-primary cf-submit" id="cf-submit-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              <span id="cf-btn-text">Send Message</span>
+            </button>
+
+            <!-- Success notice -->
+            <div class="cf-success" id="cf-success" role="status" hidden>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Your email client will open now. See you soon!</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER =====================
+       Final CTA (interactive-portfolio: "Footer: Final CTA")
+  ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Kissha<span>.</span></div>
+        <p>&copy; 2026 Kissha C. Trangia. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <!-- Final CTA in footer -->
+      <div class="footer-cta">
+        <p>Ready to reclaim your time? Let's talk about how I can help.</p>
+        <a href="mailto:kisshatrangia@gmail.com" class="btn btn-primary">Start a Conversation</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP from CDN (antigravity-design-expert: GSAP + ScrollTrigger) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

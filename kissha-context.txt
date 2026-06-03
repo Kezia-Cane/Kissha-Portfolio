@@ -1,0 +1,394 @@
+---
+
+title: "Kissha C. Trangia"
+description: "Virtual Assistant, Operations Support Specialist, and Local SEO Assistant"
+theme: "black-beige-white"
+--------------------------
+
+# Brand Identity
+
+## Brand Colors
+
+| Color         | Hex       |
+| ------------- | --------- |
+| Primary Black | `#111111` |
+| Warm Beige    | `#E7D7C1` |
+| Soft Beige    | `#F5EDE3` |
+| Pure White    | `#FFFFFF` |
+| Dark Text     | `#222222` |
+
+### Color Usage
+
+* **Black (#111111)** → Headings, buttons, icons, emphasis
+* **Warm Beige (#E7D7C1)** → Accent backgrounds, cards, highlights
+* **Soft Beige (#F5EDE3)** → Section backgrounds
+* **White (#FFFFFF)** → Main page background
+* **Dark Text (#222222)** → Body text
+
+---
+
+## Typography
+
+### Headings
+
+**Playfair Display**
+
+Elegant, professional, and trustworthy.
+
+### Body Text
+
+**Inter**
+
+Clean, modern, and highly readable.
+
+---
+
+## Brand Personality
+
+Professional • Organized • Reliable • Efficient • Modern • Client-Focused
+
+---
+
+## Visual Style
+
+* Minimalist layouts
+* Large clean spacing
+* Rounded cards
+* Soft shadows
+* Beige accent sections
+* Black call-to-action buttons
+* White backgrounds
+* Premium corporate aesthetic
+
+---
+
+## Website Design Direction
+
+### Hero Section
+
+Background: White
+
+Text Color: Black
+
+Accent Color: Beige
+
+CTA Button:
+
+* Background: Black
+* Text: White
+
+Secondary Button:
+
+* Border: Black
+* Text: Black
+
+---
+
+## Section Styling
+
+### Alternate Section Colors
+
+Section 1 → White (`#FFFFFF`)
+
+Section 2 → Soft Beige (`#F5EDE3`)
+
+Section 3 → White (`#FFFFFF`)
+
+Section 4 → Soft Beige (`#F5EDE3`)
+
+---
+
+## CSS Variables
+
+```css
+:root {
+  --black: #111111;
+  --beige: #E7D7C1;
+  --light-beige: #F5EDE3;
+  --white: #FFFFFF;
+  --text: #222222;
+
+  --heading-font: 'Playfair Display', serif;
+  --body-font: 'Inter', sans-serif;
+}
+```
+---
+
+title: "Kissha C. Trangia"
+description: "Virtual Assistant, Operations Support Specialist, and Local SEO Assistant"
+theme: "black-beige-white"
+--------------------------
+
+# KISSHA C. TRANGIA
+
+### Virtual Assistant • Operations Support Specialist • Local SEO Assistant
+
+📍 Davao City, Philippines
+📧 [kisshatrangia@gmail.com](mailto:kisshatrangia@gmail.com)
+📞 +63 963 285 9314
+
+---
+
+# About Me
+
+I help businesses stay organized, responsive, and operationally efficient.
+
+With experience supporting US-based clients across administrative operations, customer communication, project coordination, and local SEO support, I specialize in helping business owners reduce operational bottlenecks and maintain smooth day-to-day workflows.
+
+My background combines executive assistance, CRM management, customer support, scheduling coordination, and AI-assisted productivity systems. I thrive in remote environments where organization, communication, and reliability directly impact business growth.
+
+---
+
+# Services
+
+## Executive & Administrative Support
+
+* Calendar Management
+* Appointment Scheduling
+* Inbox Management
+* Meeting Coordination
+* Documentation & SOP Creation
+* Data Entry & Records Management
+
+## Customer & Client Support
+
+* Email Support
+* Customer Follow-Ups
+* Appointment Confirmations
+* CRM Updates
+* Lead Tracking
+* Customer Onboarding Assistance
+
+## Operations Coordination
+
+* Workflow Organization
+* Task Management
+* Project Tracking
+* Team Communication Support
+* Reporting Systems
+* Operational Documentation
+
+## Local SEO & Digital Support
+
+* Google Business Profile Optimization
+* Local SEO Support
+* Citation Management
+* Keyword Research
+* Competitor Research
+* WordPress Content Updates
+
+## AI-Powered Productivity
+
+* ChatGPT Workflow Support
+* AI-Assisted Content Drafting
+* Documentation Automation
+* Productivity Optimization
+* Process Improvement
+
+---
+
+# Experience
+
+## Virtual Assistant / Executive & Operations Support Specialist
+
+**US-Based Client**
+*August 2025 – February 2026*
+
+Managed daily executive support operations including scheduling, communication management, documentation, workflow organization, and administrative coordination across multiple client accounts.
+
+### Highlights
+
+* Coordinated executive calendars and appointments
+* Managed email communications and client follow-ups
+* Built documentation and SOP systems
+* Organized records and workflow tracking systems
+* Improved operational visibility through reporting
+* Leveraged AI tools to improve productivity
+
+---
+
+## Virtual Assistant / HVAC Project Coordinator
+
+**US-Based Client**
+*August 2025 – February 2026*
+
+Provided operational support for HVAC projects, technician scheduling, service coordination, customer communications, and workflow management.
+
+### Highlights
+
+* Coordinated technician schedules
+* Managed service appointments
+* Handled customer follow-ups
+* Maintained project documentation
+* Developed operational tracking systems
+* Improved scheduling accuracy
+
+---
+
+## Virtual Assistant / Customer Experience Specialist
+
+**US-Based Client**
+*August 2025 – February 2026*
+
+Delivered customer support through multiple communication channels while maintaining excellent response times and customer satisfaction.
+
+### Highlights
+
+* Managed inbound and outbound communications
+* Resolved customer inquiries efficiently
+* Maintained CRM records
+* Coordinated onboarding processes
+* Supported retention-focused follow-ups
+
+---
+
+## Virtual Assistant / Local SEO & Digital Support Specialist
+
+**US-Based Client**
+*August 2025 – February 2026*
+
+Supported digital marketing and local SEO initiatives through business profile optimization, content management, and marketing support.
+
+### Highlights
+
+* Optimized Google Business Profiles
+* Conducted keyword research
+* Updated WordPress websites
+* Supported lead generation campaigns
+* Created Canva marketing assets
+* Maintained citation consistency
+
+---
+
+# Tools & Platforms
+
+## CRM & Operations
+
+* GoHighLevel (GHL)
+* ServiceTitan
+* HubSpot
+* CRM Systems
+* Lead Tracking
+* Pipeline Management
+
+## Productivity
+
+* Google Workspace
+* Microsoft 365
+* ClickUp
+* Trello
+* Asana
+* Calendly
+
+## Communication
+
+* Slack
+* Zoom
+* Google Meet
+* WhatsApp Business
+* Loom
+
+## SEO & Marketing
+
+* Google Business Profile
+* Google Search Console
+* Google Analytics
+* SEMrush
+* Local SEO Tools
+
+## Content & Design
+
+* Canva
+* CapCut
+* Adobe Express
+* WordPress
+* Elementor
+
+## AI & Automation
+
+* ChatGPT
+* Grammarly
+* Prompt Engineering
+* AI Workflow Optimization
+
+---
+
+# Why Work With Me
+
+✅ Strong organizational skills
+
+✅ Excellent written communication
+
+✅ Experience supporting US-based clients
+
+✅ Detail-oriented and process-driven
+
+✅ Reliable remote work setup
+
+✅ Fast learner with AI-powered productivity expertise
+
+---
+
+# Education
+
+## Bachelor of Science in Criminology
+
+**University of Mindanao – Tagum College**
+2024
+
+* Summa Cum Laude
+* Service and Leadership Awardee
+* Licensed Criminologist
+
+---
+
+# Certification
+
+### Virtual Assistant Training Program
+
+Joven VA • 2025
+
+---
+
+# Remote Work Setup
+
+## Internet
+
+* Fiber Internet (200 Mbps)
+* Smart 5G Backup Connection
+
+## Equipment
+
+* ASUS Laptop
+* HD Webcam
+* Noise-Cancelling Headset
+
+## Workspace
+
+* Dedicated Home Office
+* Professional Video Call Environment
+
+## Availability
+
+* Full-Time
+* Flexible for US, UK, and AU Time Zones
+
+---
+
+# Languages
+
+**English** — Fluent
+
+**Filipino** — Native
+
+---
+
+# Contact
+
+### Let's Work Together
+
+I'm passionate about helping businesses improve operational efficiency, streamline workflows, and provide exceptional customer experiences.
+
+📧 [kisshatrangia@gmail.com](mailto:kisshatrangia@gmail.com)
+
+📞 +63 963 285 9314
